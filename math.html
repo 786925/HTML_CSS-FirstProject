@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<script src="myscripts.js"></script>
+<html>
+<!-- **************** Head Section **************** -->
+<head>
+  <link rel="stylesheet" type="text/css" href="mystyles.css">
+</head>
+<!-- **************** Body Section **************** -->
+<body>
+  <div id = "wrapperDiv">
+    <img src = "om_nom_nom_chicken.gif"/>
+    <img src = "om_nom_nom_chicken.gif"/>
+    <div id = "headerDiv">MLG Gateway</div>
+
+    <div id = "navDiv">
+        <div class = "buttonDiv">
+          <a href="index.html">Home</a>
+        </div>
+        <div class = "buttonDiv">
+          <a href="math.html">Math</a>
+        </div>
+        <div class = "buttonDiv">
+          <a href="family.html">Family</a>
+        </div>
+        <div class = "buttonDiv">
+          <a href="memes.html">Quality</a>
+        </div>
+        <div class = "buttonDiv">
+          <a href="datboi.html">Waddup</a>
+        </div>
+    </div>
+    <div id = "bodyDiv">Welcome to the MLG Gateway, home of some of the best MLG montages
+      <input type="text" id = "aa"/>
+      <input type="text" id = "ab"/>
+      <input type="text" id = "ac"/>
+      <input type="text" id = "ad"/>
+      <input type="button" value = "MLG Mean"onclick = "mean()"/>
+      <input type="button" value = "MLG Median"onclick = "median()"/>
+      <input type="text" id = "avg"/>
+      <script type="text/javascript">
+        function mean(){
+          var a = parseInt(document.getElementById('aa').value);
+          var b = parseInt(document.getElementById('ab').value);
+          var c = parseInt(document.getElementById('ac').value);
+          var d = parseInt(document.getElementById('ad').value);
+          var afinal = ((a+b+c+d)/4);
+            document.getElementById('avg').value=afinal;
+        }
+        function median(){
+          var a = parseInt(document.getElementById('aa').value);
+          var b = parseInt(document.getElementById('ab').value);
+          var c = parseInt(document.getElementById('ac').value);
+          var d = parseInt(document.getElementById('ad').value);
+          var afinal = ((b+c) / 2);
+            document.getElementById('avg').value=afinal;
+      </script>
+      </div>
+    <div id = "footerDiv">By: Travis Ruso</div>
+   </div>
+</body>
+</html>

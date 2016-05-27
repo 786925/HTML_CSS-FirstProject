@@ -1,0 +1,51 @@
+body{
+  color:black;
+  background-color:grey;
+
+}
+#wrapperDiv{
+  width:906px;
+  height:800px;
+  background-color: red;
+  margin:auto;
+}
+
+#headerDiv{
+  width:900px;
+  height:200px;
+  border: solid black 3px;
+  text-align:center;
+  background-color: orange;
+
+}
+#navDiv{
+  width:900px;
+  height:50px;
+  border: solid black 3px;
+  background-color: #29293d;
+}
+#bodyDiv{
+  width:900px;
+  height:450px;
+  border: solid black 3px;
+  background-color: #c2c2d6;
+  text-align: center;
+}
+#footerDiv{
+  width:900px;
+  height:100px;
+  border: solid black 3px;
+  background-color: #29a329;
+  text-align: center;
+}
+.buttonDiv{
+  width:120px;
+  height:15px;
+  border: solid black 1px;
+  background-color: white;
+  float:left;
+  margin:5px;
+  text-align:center;
+  padding:15px;
+  margin-left: 20px;
+}
